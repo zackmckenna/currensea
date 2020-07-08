@@ -3061,6 +3061,14 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.0.tgz#a17b3a8ea811060e74d47d306122400ad4497ae2"
   integrity sha512-3YDiu347mtVtjpyV3u5kVqQLP242c06zwDOgpeRnybmXlYYsLbtTrUBUm8i8srONt+FWobl5aibnU1030PeeuA==
 
+axios@^0.17.0:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
+  integrity sha1-LY4+XQvb1zJ/kbyBT1xXZg+Bgk0=
+  dependencies:
+    follow-redirects "^1.2.5"
+    is-buffer "^1.1.5"
+
 axios@^0.19.2:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
@@ -5697,6 +5705,11 @@ follow-redirects@^1.0.0:
   integrity sha512-KZm0V+ll8PfBrKwMzdo5D13b1bur9Iq9Zd/RMmAoQQcl2PxxFml8cxXPaaPYVbV0RjNjq1CU7zIzAOqtUPudmA==
   dependencies:
     debug "^3.0.0"
+
+follow-redirects@^1.2.5:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.12.1.tgz#de54a6205311b93d60398ebc01cf7015682312b6"
+  integrity sha512-tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -9438,6 +9451,13 @@ punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+
+purchasing-power-parity@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/purchasing-power-parity/-/purchasing-power-parity-2.0.2.tgz#96c1992d8770c609a14a2f9c6cf0796ddd320e3c"
+  integrity sha512-PzdOMXTEvYjRyQWmvr/toODACK1kbmCJ4HIk+1HX8RoBWiLpOyG58jZyjW0/MgkALNMxMzuJ7qjaOGmcf76dfA==
+  dependencies:
+    axios "^0.17.0"
 
 purgecss@^2.3.0:
   version "2.3.0"
