@@ -2104,7 +2104,7 @@ const HomePage = () => {
         <div className="max-w-screen-sm justify-center container text-center mx-auto">
           <div className="p-4">
             <span className="rounded block text-gray-700 text-center px-4 py-2">
-              <h1 className="text-6xl font-extrabold">PPP</h1>
+              <h1 className="text-6xl font-extrabold">PPP Calculator</h1>
               {amount && base && target && (
                 <p className="mb-2">
                   What is the purchasing power parity of {amount} USD in{' '}
@@ -2191,9 +2191,6 @@ const HomePage = () => {
                         )
                       })}
                     </select>
-                    <p className="text-gray-600 text-xs italic">
-                      Make it as long and as crazy as you'd like
-                    </p>
                   </div>
                 </div>
                 <button
