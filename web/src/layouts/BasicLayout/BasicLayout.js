@@ -60,14 +60,14 @@ const BasicLayout = ({ children }) => {
               >
 
               </Link> */}
-              <a
+              {/* <a
                 className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
                 rel="noreferrer"
                 target="_blank"
                 href="https://www.mintbean.io/mb-event/f45c4fe2-fac3-4fec-9159-a7ec2f2cedf7"
               >
                 Mintbean Hackathon 7-8
-              </a>
+              </a> */}
               <a
                 className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
                 rel="noreferrer"
