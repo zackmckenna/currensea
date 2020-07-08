@@ -20,7 +20,9 @@ export const Loading = () => <div>Loading...</div>
 
 export const Empty = () => <div>Empty</div>
 
-export const Failure = ({ error }) => <div>Error: {error.message}</div>
+export const Failure = ({ error }) => (
+  <div>There is no PPP data for target country</div>
+)
 
 export const Success = ({ parity }) => {
   console.log(JSON.stringify(parity))
