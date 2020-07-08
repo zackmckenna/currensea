@@ -81,52 +81,12 @@ const countryData = [
     long: 20,
   },
   {
-    name: 'Algeria',
-    alpha2: 'DZ',
-    alpha3: 'DZA',
-    numericCode: 12,
-    lat: 28,
-    long: 3,
-  },
-  {
-    name: 'American Samoa',
-    alpha2: 'AS',
-    alpha3: 'ASM',
-    numericCode: 16,
-    lat: -14.3333,
-    long: -170,
-  },
-  {
-    name: 'Andorra',
-    alpha2: 'AD',
-    alpha3: 'AND',
-    numericCode: 20,
-    lat: 42.5,
-    long: 1.6,
-  },
-  {
     name: 'Angola',
     alpha2: 'AO',
     alpha3: 'AGO',
     numericCode: 24,
     lat: -12.5,
     long: 18.5,
-  },
-  {
-    name: 'Anguilla',
-    alpha2: 'AI',
-    alpha3: 'AIA',
-    numericCode: 660,
-    lat: 18.25,
-    long: -63.1667,
-  },
-  {
-    name: 'Antarctica',
-    alpha2: 'AQ',
-    alpha3: 'ATA',
-    numericCode: 10,
-    lat: -90,
-    long: 0,
   },
   {
     name: 'Antigua and Barbuda',
@@ -2148,7 +2108,7 @@ const HomePage = () => {
               {amount && base && target && (
                 <p className="mb-2">
                   What is the purchasing power parity of {amount} USD in{' '}
-                  {target[0]} ?{' '}
+                  {target[0]}?
                 </p>
               )}
               <p>
